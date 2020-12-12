@@ -36,14 +36,81 @@ main {
 
 #landing {
     border: 5px solid green;
-
+    background: #fff;
 }
-
+#landing-text {
+    border: 3px solid black;
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+#landing {
+    border: 3px solid rgb(124, 116, 223);
+}
+#landing-text h2 {
+    color: #888;
+}
 #landing-image {
-    border: 5px solid yellow;
+    background: url('https://images.unsplash.com/photo-1583511666445-775f1f2116f5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 2rem 0;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #333;
+    transition: background 500ms ease;
+}
+.btn:hover {
+ background: #f4f4f4
+}
+
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+#header h2 {
+    border-left: dotted 1px  #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+        border: 3px solid red;
+    border: 3px solid red;
 
 }
-#images{
-    border: 5px solid purple;
 
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    border: 3px solid red;
 }
