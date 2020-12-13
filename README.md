@@ -1,4 +1,4 @@
-# Single Animal Photography Page
+# Furry Photography 
 > A responsive single page photography website using a mobile first approach with just HTML5 and CSS3.
 
 ## Table of contents
